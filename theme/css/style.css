@@ -419,7 +419,7 @@ a:focus {
 }
 
 #navbar {
-  background: linear-gradient(to bottom, #66ffff 0%, #00ff99 100%);
+  background: linear-gradient(to right, #33ccff 0%, #000099 100%);
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 #navbar li {
@@ -433,7 +433,7 @@ a:focus {
 #navbar .nav-link {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -442,7 +442,7 @@ a:focus {
 #navbar .nav-link:hover,
 #navbar .nav-link:focus,
 #navbar .active .nav-link {
-  color: rgb(44, 189, 88);
+  color: rgb(194, 236, 42);
 }
 #navbar .btn {
   padding: 0.7rem 1.5rem 0.5rem;
@@ -473,7 +473,7 @@ a:focus {
   padding: 0 8px;
 }
 .header-top .header-top-socials a:hover {
-  color: rgb(247, 87, 87);
+  color: rgb(231, 221, 221);
 }
 .header-top .header-top-info {
   color: #919194;
@@ -497,12 +497,12 @@ a:focus {
 }
 
 .navbar-brand {
-  color: #7c5454;
+  color: #59f529;
   font-weight: 600;
   letter-spacing: 1px;
 }
 .navbar-brand span {
-  color: rgb(90, 87, 247);
+  color: rgb(38, 37, 77);
 }
 
 .dropdown-menu {
