@@ -248,14 +248,16 @@ input[type="tel"]:focus {
 .hero-img,
 .cta,
 .slider,
-.page-title {
+.page-title,
+.consultant {
   position: relative;
 }
 .overly:before,
 .hero-img:before,
 .cta:before,
 .slider:before,
-.page-title:before {
+.page-title:before,
+.consultant:before {
   content: "";
   position: absolute;
   left: 0;
@@ -295,6 +297,12 @@ input[type="tel"]:focus {
 
 .simple-text-color {
   color: #fff;
+}
+
+.consultant {
+  background: url("../images/bg/consultant.jpg") fixed 50% 50%;
+  background-size: cover;
+  padding: 120px 0px;
 }
 
 .text-black {
